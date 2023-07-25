@@ -62,7 +62,7 @@ const rows = [
     ),
     companies: (
       <Box>
-        <img src="./members/icon_01.png" />
+        <img src="./members/icon01.png" />
         <Typography>Chakra Soft UI Version</Typography>
       </Box>
     ),
@@ -94,7 +94,7 @@ const rows = [
     ),
     companies: (
       <Box>
-        <img src="./members/icon_02.png" />
+        <img src="./members/icon02.png" />
         <Typography>Add Progress Track</Typography>
       </Box>
     ),
@@ -126,7 +126,7 @@ const rows = [
     ),
     companies: (
       <Box>
-        <img src="./members/icon_03.png" />
+        <img src="./members/icon03.png" />
         <Typography>Fix Platform Errors</Typography>
       </Box>
     ),
@@ -166,7 +166,7 @@ const rows = [
     ),
     companies: (
       <Box>
-        <img src="./members/icon_04.png" />
+        <img src="./members/icon04.png" />
         <Typography>Launch our Mobile App</Typography>
       </Box>
     ),
@@ -210,7 +210,7 @@ const rows = [
     ),
     companies: (
       <Box>
-        <img src="./members/icon_05.png" />
+        <img src="./members/icon05.png" />
         <Typography>Add the New Pricing Page</Typography>
       </Box>
     ),
@@ -242,7 +242,7 @@ const rows = [
     ),
     companies: (
       <Box>
-        <img src="./members/icon_06.png" />
+        <img src="./members/icon06.png" />
         <Typography>Redesign New Online Shop</Typography>
       </Box>
     ),
