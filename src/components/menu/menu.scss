@@ -1,0 +1,50 @@
+@import "../../styles/variables.scss";
+.menu {
+  .item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    .title {
+      font-size: 12px;
+      font-weight: 200px;
+      color: $soft-color;
+      text-transform: uppercase;
+    }
+    .icon {
+      width: 16px;
+      height: 16px;
+      object-fit: cover;
+    }
+    .listItem {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 20px;
+      border-radius: 15px;
+      &:hover {
+        background-color: $soft-bg;
+      }
+    }
+  }
+
+  .item:nth-child(2) {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 8px;
+    .iconBox {
+      background-color: #4fd1c5;
+    }
+  }
+  .item:nth-child(5) {
+    .listItem:hover {
+      background-color: transparent;
+    }
+  }
+}
+.needHelp {
+  background-image: url(../../../public/img/menuBG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

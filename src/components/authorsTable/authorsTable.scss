@@ -1,0 +1,62 @@
+.authorStatus {
+  width: 65px;
+  height: 25px;
+  border-radius: 8px;
+  background-color: #48bb78;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+.authorCol1 {
+  width: 100%;
+  img {
+    border-radius: 15px;
+  }
+  .authorsContainer {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    .authorName {
+      font-size: 14px;
+      font-weight: 700;
+      color: #2d3748;
+    }
+    .authorEmail {
+      color: #718096;
+      font-weight: 300;
+      font-size: 14px;
+    }
+  }
+}
+.authorCol2 {
+  .position {
+    font-size: 14px;
+    font-weight: 700;
+    color: #2d3748;
+  }
+  .department {
+    color: #718096;
+    font-weight: 300;
+    font-size: 14px;
+  }
+}
+
+.authorCol4 {
+  .employedDated {
+    p {
+      font-size: 14px;
+      font-weight: 700;
+      color: #2d3748;
+    }
+  }
+}
+
+.authorCol5 {
+  .edit {
+    font-size: 14px;
+    font-weight: 700;
+    color: #718096;
+  }
+}
