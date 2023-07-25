@@ -33,20 +33,16 @@ function App() {
   };
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/inflexion-project/",
       element: <Layout />,
       children: [
         {
-          path: "/",
+          path: "/inflexion-project/",
           element: <Home />,
         },
         {
-          path: "/tables",
+          path: "/inflexion-project/tables",
           element: <Tables />,
-        },
-        {
-          path: "/products",
-          element: <Products />,
         },
       ],
     },

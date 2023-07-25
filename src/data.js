@@ -2,13 +2,13 @@ export const menu = [
   {
     id: 1,
     title: "Dashboard",
-    url: "/",
-    icon: "./icons/home.png",
+    url: "/inflexion-project/",
+    icon: "../../../public/icons/home.png",
   },
   {
     id: 2,
     title: "Tables",
-    url: "/tables",
+    url: "/inflexion-project/tables",
     icon: "./icons/tables.png",
   },
   {
