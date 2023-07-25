@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/inflexion-project/static/css/main.9e6db7ec.css",
+    "main.js": "/inflexion-project/static/js/main.a5f11ab0.js",
+    "static/media/rocketBG.png": "/inflexion-project/static/media/rocketBG.f05a1f2f04105bc12664.png",
+    "index.html": "/inflexion-project/index.html",
+    "main.9e6db7ec.css.map": "/inflexion-project/static/css/main.9e6db7ec.css.map",
+    "main.a5f11ab0.js.map": "/inflexion-project/static/js/main.a5f11ab0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e6db7ec.css",
+    "static/js/main.a5f11ab0.js"
+  ]
+}
