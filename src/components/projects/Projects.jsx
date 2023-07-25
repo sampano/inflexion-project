@@ -242,7 +242,10 @@ const rows = [
     ),
     companies: (
       <Box>
-        <img src="./members/icon06.png" />
+        <img
+          src="./members/icon06.png
+        "
+        />
         <Typography>Redesign New Online Shop</Typography>
       </Box>
     ),
