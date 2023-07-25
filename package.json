@@ -1,7 +1,7 @@
 {
-  "homepage": "https://sampano.github.io/inflexion-project",
   "name": "react-admin",
   "version": "0.1.0",
+  "homepage": "https://sampano.github.io/inflexion-project/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -20,12 +20,13 @@
     "recharts": "^2.7.2",
     "sass": "^1.64.0",
     "styled-components": "^5.3.11",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "@babel/plugin-proposal-private-property-in-object": ""
   },
   "scripts": {
-    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -49,7 +50,6 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "gh-pages": "^5.0.0"
   }
 }
