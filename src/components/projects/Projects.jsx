@@ -272,7 +272,10 @@ const Projects = () => {
           done this month
         </Typography>
       </Box>
-      <Box sx={{ height: "100%", width: "100%", border: "none !important" }}>
+      <Box
+        sx={{ height: "100%", width: "100%", border: "none !important" }}
+        className="test"
+      >
         <DataGrid
           rowHeight={72}
           rows={rows}
