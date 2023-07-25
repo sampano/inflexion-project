@@ -3,7 +3,7 @@ export const menu = [
     id: 1,
     title: "Dashboard",
     url: "/inflexion-project/",
-    icon: "../../../public/icons/home.png",
+    icon: "./icons/home.png",
   },
   {
     id: 2,
@@ -14,7 +14,7 @@ export const menu = [
   {
     id: 3,
     title: "RTL",
-    url: "/",
+    url: "/inflexion-project/",
     icon: "./icons/rtl.png",
   },
   {
@@ -26,19 +26,19 @@ export const menu = [
   {
     id: 5,
     title: "Profile",
-    url: "/",
+    url: "/inflexion-project/",
     icon: "./icons/profile.png",
   },
   {
     id: 6,
     title: "Sign In",
-    url: "/",
+    url: "/inflexion-project/",
     icon: "./icons/signin.png",
   },
   {
     id: 7,
     title: "Sign Up",
-    url: "/",
+    url: "/inflexion-project/",
     icon: "./icons/signup.png",
   },
 ];
