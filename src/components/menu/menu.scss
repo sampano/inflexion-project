@@ -48,3 +48,13 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+@media (max-width: 576px) {
+  .menu {
+    flex-direction: row !important;
+    overflow-x: auto;
+    .listItem {
+      width: 180px;
+    }
+  }
+}

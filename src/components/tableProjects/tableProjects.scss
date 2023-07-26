@@ -1,0 +1,43 @@
+@import "../../styles/variables.scss";
+.MuiDataGrid-root {
+  border: none !important;
+}
+.MuiDataGrid-columnHeaderTitleContainerContent {
+  width: 100%;
+}
+.col1 {
+  div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+
+    p {
+      font-size: 14px;
+      color: #2d3748;
+      font-weight: 700;
+    }
+  }
+}
+.dataGridRows {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  img {
+    margin-left: -10px;
+  }
+  img:nth-child(1) {
+    margin-left: 0;
+  }
+}
+.col3 {
+  text-align: left;
+  width: 100%;
+  .budget {
+    font-size: 14px;
+    font-weight: 700;
+  }
+}
+.col4 {
+  width: 100%;
+}

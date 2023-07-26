@@ -42,7 +42,11 @@ const PurityDashboard = () => {
         </Box>
       </Box>
       <Box>
-        <img src="./img/chakra.png" style={{ borderRadius: "15px" }} />
+        <img
+          className="chakraImg"
+          src="./img/chakra.png"
+          style={{ borderRadius: "15px" }}
+        />
       </Box>
     </Box>
   );

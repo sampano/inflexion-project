@@ -23,9 +23,15 @@ const ActiveUsers = (props) => {
         paddingBottom={"30px"}
         display={"flex"}
         justifyContent={"space-between"}
+        sx={{ flexWrap: { xs: "wrap" } }}
       >
         {activeUsers.map((userDetails) => (
-          <Box paddingBottom={"10px"} width={"30%"} key={userDetails.title}>
+          <Box
+            paddingBottom={"10px"}
+            width={"30%"}
+            key={userDetails.title}
+            sx={{ width: { xs: "50%" } }}
+          >
             <Box
               display={"flex"}
               justifyContent={"flex-start"}

@@ -5,7 +5,7 @@ import { Stack, Box, Typography } from "@mui/material";
 
 const Menu = () => {
   return (
-    <>
+    <Box>
       <Stack
         className="menu"
         spacing={2}
@@ -23,18 +23,6 @@ const Menu = () => {
           backgroundColor="gray"
           border={"1px solid #E2E8F0"}
         ></Box>
-        {/* {menu.map((item) => (
-        <div className="item" key={item.id}>
-          <span className="title">{item.title}</span>
-          {item.listItems.map((listItems) => (
-            <Link to={listItems.url} key={listItems.id} className="listItem">
-              <img src={listItems.icon} alt="" />
-              <span className="listItemTitle">{listItems.title}</span>
-            </Link>
-          ))}
-        </div>
-      ))} */}
-
         {menu.map((item) => (
           <Box className="item" key={item.id}>
             <Link to={item.url} className="listItem">
@@ -65,7 +53,7 @@ const Menu = () => {
           </Box>
         ))}
       </Stack>
-      <Box className="needHelp" padding={"25px 20px"} marginTop={"100px"}>
+      <Box className="needHelp" padding={"25px 20px"} marginTop={"100px"} sx={{display: {xs: "none", sm: "block"}}}>
         <Box
           width={"32px"}
           height={"32px"}
@@ -95,7 +83,7 @@ const Menu = () => {
           </Link>
         </Box>
       </Box>
-    </>
+    </Box>
   );
 };
 /**<div className="menu">

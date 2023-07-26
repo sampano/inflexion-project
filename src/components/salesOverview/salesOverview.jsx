@@ -85,56 +85,65 @@ const data = [
 ];
 const SalesOVerview = () => {
   return (
-    <ResponsiveContainer width="100%" height="100%">
-      <AreaChart
-        width={500}
-        height={400}
-        data={data}
-        margin={{
-          top: 10,
-          right: 30,
-          left: 0,
-          bottom: 0,
-        }}
-      >
-        <defs>
-          <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="5%" stopColor="#4FD1C5" stopOpacity={0.8} />
-            <stop offset="95%" stopColor="#4FD1C5" stopOpacity={0} />
-          </linearGradient>
-          <linearGradient id="colorPv" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="5%" stopColor="#2D3748" stopOpacity={0.8} />
-            <stop offset="95%" stopColor="#2D3748" stopOpacity={0} />
-          </linearGradient>
-        </defs>
-        <CartesianGrid strokeDasharray="3 3" />
-        <XAxis dataKey="name" />
-        <YAxis />
-        <Tooltip />
-        <Area
-          type="monotone"
-          dataKey="uv"
-          stroke="#4FD1C5"
-          fill="url(#colorUv)"
-        />
-        <Area
-          type="monotone"
-          dataKey="pv"
-          stroke="#2D3748"
-          fill="url(#colorPv)"
-        />
-      </AreaChart>
-    </ResponsiveContainer>
-
-    // <Box paddingBottom={"30px"}>
-    //     <Typography color={"#2D3748"} fontSize={"18px"} fontWeight={"700"}>
-    //       Active User
-    //     </Typography>
-    //     <Typography fontSize={"14px"}>
-    //       <span style={{ color: "#48BB78", fontWeight: "700" }}>(+23)</span>{" "}
-    //       than last week
-    //     </Typography>
-    //   </Box>
+    <Box>
+      <Box paddingBottom={"40px"}>
+        <Typography color={"#2D3748"} fontSize={"18px"} fontWeight={"700"}>
+          Sales Overview
+        </Typography>
+        <Typography fontSize={"14px"}>
+          <span style={{ color: "#48BB78", fontWeight: "700" }}>
+            (+23) more
+          </span>{" "}
+          in 2021
+        </Typography>
+      </Box>
+      <Box width={"100%"} height={"400px"}>
+        <ResponsiveContainer width="100%" height="100%">
+          <AreaChart
+            width={500}
+            height={400}
+            data={data}
+            margin={{
+              top: 10,
+              right: 30,
+              left: 0,
+              bottom: 0,
+            }}
+          >
+            <defs>
+              <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="5%" stopColor="#4FD1C5" stopOpacity={0.8} />
+                <stop offset="95%" stopColor="#4FD1C5" stopOpacity={0} />
+              </linearGradient>
+              <linearGradient id="colorPv" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="5%" stopColor="#2D3748" stopOpacity={0.8} />
+                <stop offset="95%" stopColor="#2D3748" stopOpacity={0} />
+              </linearGradient>
+            </defs>
+            <CartesianGrid
+              vertical={false}
+              horizontal={true}
+              strokeDasharray="3 3"
+            />
+            <XAxis dataKey="name" />
+            <YAxis />
+            <Tooltip />
+            <Area
+              type="monotone"
+              dataKey="uv"
+              stroke="#4FD1C5"
+              fill="url(#colorUv)"
+            />
+            <Area
+              type="monotone"
+              dataKey="pv"
+              stroke="#2D3748"
+              fill="url(#colorPv)"
+            />
+          </AreaChart>
+        </ResponsiveContainer>
+      </Box>
+    </Box>
   );
 };
 

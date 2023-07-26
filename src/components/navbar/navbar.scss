@@ -1,7 +1,6 @@
 @import "../../styles/variables.scss";
 .navbar {
   width: 100%;
-  padding: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -55,6 +54,14 @@
         border-radius: 50%;
         object-fit: cover;
       }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar {
+    .iconImg {
+      display: none;
     }
   }
 }

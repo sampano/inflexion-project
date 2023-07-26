@@ -1,13 +1,20 @@
-import "./projects.scss";
+import "./tableProjects.scss";
 import { Link } from "react-router-dom";
-import { Box, Button, IconButton, InputBase, Typography } from "@mui/material";
+import {
+  Box,
+  Button,
+  ButtonBase,
+  IconButton,
+  InputBase,
+  Typography,
+} from "@mui/material";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 import { DataGrid } from "@mui/x-data-grid";
 const columns = [
   {
     field: "companies",
     headerName: "COMPANIES",
-    width: 400,
+    width: 500,
     renderCell: (params) => <Box className="col1">{params.row.companies}</Box>,
   },
 
@@ -21,15 +28,20 @@ const columns = [
     field: "budget",
     headerName: "BUDGET",
     type: "number",
-    width: 200,
+    width: 300,
     renderCell: (params) => <Box className="col3">{params.row.budget}</Box>,
   },
   {
     field: "completion",
     headerName: "COMPLETION",
-    type: "number",
-    width: 110,
+    width: 200,
     renderCell: (params) => <Box className="col4">{params.row.completion}</Box>,
+  },
+  {
+    field: "edit",
+    headerName: "",
+    width: 160,
+    renderCell: (params) => <Box className="col4">{params.row.edit}</Box>,
   },
 ];
 
@@ -82,6 +94,11 @@ const rows = [
         </Box>
       </Box>
     ),
+    edit: (
+      <Button>
+        <MoreVertIcon sx={{ color: "#A0AEC0" }} />
+      </Button>
+    ),
   },
   {
     id: 2,
@@ -116,6 +133,11 @@ const rows = [
         </Box>
       </Box>
     ),
+    edit: (
+      <Button>
+        <MoreVertIcon sx={{ color: "#A0AEC0" }} />
+      </Button>
+    ),
   },
   {
     id: 3,
@@ -149,6 +171,11 @@ const rows = [
           <Box width={"100%"} height={"3px"} backgroundColor={"#4FD1C5"}></Box>
         </Box>
       </Box>
+    ),
+    edit: (
+      <Button>
+        <MoreVertIcon sx={{ color: "#A0AEC0" }} />
+      </Button>
     ),
   },
   {
@@ -193,6 +220,11 @@ const rows = [
           <Box width={"100%"} height={"3px"} backgroundColor={"#4FD1C5"}></Box>
         </Box>
       </Box>
+    ),
+    edit: (
+      <Button>
+        <MoreVertIcon sx={{ color: "#A0AEC0" }} />
+      </Button>
     ),
   },
   {
@@ -243,6 +275,11 @@ const rows = [
         </Box>
       </Box>
     ),
+    edit: (
+      <Button>
+        <MoreVertIcon sx={{ color: "#A0AEC0" }} />
+      </Button>
+    ),
   },
   {
     id: 6,
@@ -281,25 +318,25 @@ const rows = [
         </Box>
       </Box>
     ),
+    edit: (
+      <Button>
+        <MoreVertIcon sx={{ color: "#A0AEC0" }} />
+      </Button>
+    ),
   },
 ];
 
-const Projects = () => {
+const TableProjects = () => {
   return (
     <Box>
-      <Box display={"flex"} width={"100%"} justifyContent={"space-between"}>
-        <Box paddingBottom={"30px"}>
-          <Typography color={"#2D3748"} fontSize={"18px"} fontWeight={"700"}>
-            Projects
-          </Typography>
-          <Typography fontSize={"14px"}>
-            <span style={{ color: "#48BB78", fontWeight: "700" }}>(+23)</span>{" "}
-            30 done this month
-          </Typography>
-        </Box>
-        <Button>
-          <MoreVertIcon sx={{ color: "#A0AEC0" }} />
-        </Button>
+      <Box paddingBottom={"30px"}>
+        <Typography color={"#2D3748"} fontSize={"18px"} fontWeight={"700"}>
+          Projects
+        </Typography>
+        <Typography fontSize={"14px"}>
+          <span style={{ color: "#48BB78", fontWeight: "700" }}>(+23)</span> 30
+          done this month
+        </Typography>
       </Box>
       <Box
         sx={{ height: "100%", width: "100%", border: "none !important" }}
@@ -329,4 +366,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default TableProjects;

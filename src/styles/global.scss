@@ -41,3 +41,13 @@ a {
   font-weight: 700;
   color: #2d3748;
 }
+
+@media (max-width: 576px) {
+  .container {
+    flex-direction: column;
+
+    .menuContainer {
+      width: 100%;
+    }
+  }
+}

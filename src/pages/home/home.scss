@@ -54,3 +54,48 @@
     grid-row: span 2;
   }
 }
+
+@media (max-width: 576px) {
+  .home {
+    .box1 {
+      grid-column: span 12;
+      grid-row: span 1;
+    }
+    .box2 {
+      grid-column: span 12;
+      grid-row: span 1;
+    }
+    .box3 {
+      grid-column: span 12;
+      grid-row: span 1;
+    }
+    .box4 {
+      grid-column: span 12;
+      grid-row: span 1;
+    }
+    .box5 {
+      grid-column: span 12;
+      grid-row: span 1;
+    }
+    .box6 {
+      grid-column: span 12;
+      grid-row: span 1;
+    }
+    .box7 {
+      grid-column: span 12;
+      grid-row: span 1;
+    }
+    .box8 {
+      grid-column: span 12;
+      grid-row: span 1;
+    }
+    .box9 {
+      grid-column: span 12;
+      grid-row: span 1;
+    }
+    .box10 {
+      grid-column: span 12;
+      grid-row: span 1;
+    }
+  }
+}
