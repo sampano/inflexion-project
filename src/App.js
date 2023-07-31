@@ -47,7 +47,7 @@ function App() {
       ],
     },
     {
-      path: "/login",
+      path: "/inflexion-project/login",
       element: <Login />,
     },
   ]);
