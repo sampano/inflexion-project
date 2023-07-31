@@ -41,7 +41,11 @@ const LoginNavbar = () => {
               paddingRight: { xs: "30px", sm: "0" },
             }}
           >
-            <img src="../../../public/logo/logo.png" alt="" />
+            <img
+              src="/inflexion-project/logo/logo.png"
+              alt=""
+              style={{ marginRight: "10px" }}
+            />
             <Typography
               color="#2D3748"
               fontSize="14px"
@@ -69,13 +73,15 @@ const LoginNavbar = () => {
                     <Box width={"15px"} height={"15px"}>
                       <img src={item.icon} alt={item.name} />
                     </Box>
-                    <Typography
-                      color="#2D3748"
-                      fontSize="12px"
-                      fontWeight="700"
-                    >
-                      {item.name}
-                    </Typography>
+                    <Link>
+                      <Typography
+                        color="#2D3748"
+                        fontSize="12px"
+                        fontWeight="700"
+                      >
+                        {item.name}
+                      </Typography>
+                    </Link>
                   </Box>
                 );
               })}

@@ -238,25 +238,25 @@ export const ordersOverview = [
 export const logiNavbarLinks = [
   {
     id: 1,
-    icon: "../../../public/icons/billing.png",
+    icon: "/inflexion-project/icons/login-dashboard-icon.png",
     name: "DASHBOARD",
     link: "/",
   },
   {
     id: 2,
-    icon: "../../../public/icons/login-profile-icon.png",
+    icon: "/inflexion-project/icons/login-profile-icon.png",
     name: "PROFILE",
     link: "/",
   },
   {
     id: 3,
-    icon: "../../../public/icons/login-signup-icon.png",
+    icon: "/inflexion-project/icons/login-signup-icon.png",
     name: "SIGN-UP",
     link: "/",
   },
   {
     id: 4,
-    icon: "../../../public/icons/login-signup-icon.png",
+    icon: "/inflexion-project/icons/login-signup-icon.png",
     name: "SIGN-IN",
     link: "/",
   },

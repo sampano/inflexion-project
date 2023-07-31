@@ -147,8 +147,31 @@ export default function SignInSide() {
           top={"0"}
           right={"0"}
           sx={{ borderBottomLeftRadius: "25px" }}
+          textAlign={"center"}
         >
-          <img src="../../../public/logo/chakraLogo.png" alt="Chakra Logo" />
+          <img
+            src="/inflexion-project/img/brush01.png"
+            style={{
+              position: "absolute",
+              top: "-50px",
+              right: "0",
+              width: "120%",
+            }}
+          />
+          <img
+            src="/inflexion-project/img/brush02.png"
+            style={{
+              position: "absolute",
+              top: "0",
+              right: "0",
+              width: "120%",
+            }}
+          />
+          <img
+            src="/inflexion-project/logo/chakraLogo.png"
+            alt="Chakra Logo"
+            style={{ marginTop: "380px" }}
+          />
         </Box>
       </Box>
       <LoginFooter />
