@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/inflexion-project/static/css/main.97ebe5bd.css",
-    "main.js": "/inflexion-project/static/js/main.6d91874b.js",
+    "main.css": "/inflexion-project/static/css/main.efe54705.css",
+    "main.js": "/inflexion-project/static/js/main.0828c45f.js",
     "static/media/rocketBG.png": "/inflexion-project/static/media/rocketBG.f05a1f2f04105bc12664.png",
     "index.html": "/inflexion-project/index.html",
-    "main.97ebe5bd.css.map": "/inflexion-project/static/css/main.97ebe5bd.css.map",
-    "main.6d91874b.js.map": "/inflexion-project/static/js/main.6d91874b.js.map"
+    "main.efe54705.css.map": "/inflexion-project/static/css/main.efe54705.css.map",
+    "main.0828c45f.js.map": "/inflexion-project/static/js/main.0828c45f.js.map"
   },
   "entrypoints": [
-    "static/css/main.97ebe5bd.css",
-    "static/js/main.6d91874b.js"
+    "static/css/main.efe54705.css",
+    "static/js/main.0828c45f.js"
   ]
 }
