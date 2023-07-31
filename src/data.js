@@ -234,3 +234,30 @@ export const ordersOverview = [
     date: "18 DEC 4:41 PM",
   },
 ];
+
+export const logiNavbarLinks = [
+  {
+    id: 1,
+    icon: "../../../public/icons/billing.png",
+    name: "DASHBOARD",
+    link: "/",
+  },
+  {
+    id: 2,
+    icon: "../../../public/icons/login-profile-icon.png",
+    name: "PROFILE",
+    link: "/",
+  },
+  {
+    id: 3,
+    icon: "../../../public/icons/login-signup-icon.png",
+    name: "SIGN-UP",
+    link: "/",
+  },
+  {
+    id: 4,
+    icon: "../../../public/icons/login-signup-icon.png",
+    name: "SIGN-IN",
+    link: "/",
+  },
+];

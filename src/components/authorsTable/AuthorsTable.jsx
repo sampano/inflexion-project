@@ -56,6 +56,7 @@ const rows = [
     author: (
       <Box className="authorsContainer">
         <img src="./author/elaine.png" />
+
         <Box>
           <Typography className="authorName">Elaine Benes</Typography>
           <Typography className="authorEmail">elaine@vandelay.com</Typography>
