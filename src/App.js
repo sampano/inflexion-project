@@ -33,7 +33,7 @@ function App() {
   };
   const router = createBrowserRouter([
     {
-      path: "/inflexion-project/",
+      path: "/",
       element: <Layout />,
       children: [
         {
